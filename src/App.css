@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+  justify-content: center;
+}
+
+.ratingComp{
+  background-color: #ff0054;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 30px;
+  border-radius: 10px;
+  color: rgb(236, 239, 241);
+}
+.ratingComp img{
+  width: 30px;
+  margin-left: 10px;
+}
+.ratingComp h1{
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.ratingComp p{
+  width: 50%;
+  margin-left: 10px;
+}
+.rate{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.rate button{
+  border-radius: 50%;
+  background-color: #400d72;
+  border: 2px solid #ffbd00;
+}
+
+.submit{
+  background-color: #400c99;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #ffbd00;
+}
